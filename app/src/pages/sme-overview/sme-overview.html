@@ -1,0 +1,25 @@
+
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Product Category</ion-title>
+        <ion-buttons end>
+            <button ion-button class="rightButton">
+                <ion-icon></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="page-sme-overview">
+    <ion-card class="hero-card">
+        <img class="hero-img" src="{{getImage(categories?.image)}}" />
+        <div class="hero-title">{{categories?.title | uppercase}}</div>
+    </ion-card>
+    <ion-card class="category-card" *ngFor="let category of categories?.categories">
+        <img (click)="openCategory(category)" class="category-img" src="{{getImage(category.image)}}"/>
+        <div (click)="openCategory(category)" class="category-title">{{category.title}}</div>
+    </ion-card>
+</ion-content>

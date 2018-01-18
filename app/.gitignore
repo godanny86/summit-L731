@@ -1,0 +1,27 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intelli J
+.idea/
+*.iml
+*.iws
+
+dwsync.xml
+
+_notes/
+temp/
+tmp/
+# Misc
+
+www/
+plugins/
+node_modules*
+.sourcemaps/
+platforms/android/
+platforms/ios/
+
+# OS Files
+.DS_Store
+.brackets.json

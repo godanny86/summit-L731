@@ -1,0 +1,53 @@
+page-signup {
+  .page-signup {
+    background: url(../assets/images/background-main.png) no-repeat 0 0;
+  }
+  .logo-login {
+    display: block;
+    margin:0 auto;
+    width:60px;
+    padding-top:24px;
+    padding-bottom: 80px;
+  }
+  .item-md, .item-ios {
+    padding:0 20px;
+    background: transparent;
+  }
+  .list-ios > .item-block:first-child {
+    border:none;
+  }
+  .text-input::-moz-placeholder {
+    color: white;
+  }
+  .text-input:-ms-input-placeholder {
+    color: white;
+  }
+  .text-input::-webkit-input-placeholder {
+    text-indent: 0;
+    color: white;
+  }
+  .item-md, ion-label, .text-input {
+    color:#fff;
+  }
+  .button-md, .button-md.activated, .button-ios, .button-ios.activated {
+    background-color: #3EBDC2;
+  }
+  .login-text {
+    color:#fff;
+    text-align:center;
+  }
+  .sign-up {
+    padding-top:50px;
+    padding-bottom: 20px;
+  }
+  .btn-signup-text {
+    background: transparent;
+    color:#fff;
+    text-decoration:underline;
+    font-size:1.4rem;
+  }
+  .forgot-password a {
+    color:#fff;
+    text-decoration:underline;
+  }
+}

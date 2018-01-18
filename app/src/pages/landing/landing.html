@@ -1,0 +1,36 @@
+
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{ 'LANDING_TITLE' | translate }}</ion-title>
+        <ion-buttons end>
+            <button ion-button class="rightButton">
+                <ion-icon></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="page-landing">
+    <div class="landing-content">
+        <img class="logo-login" src="assets/images/logo-login.png"/>
+        <div class="splash-info">
+            <div class="splash-intro">
+                <p *ngIf="username != ''">
+                    Hi {{username}},
+                </p>
+                    <p>The goal of this app is to be used as a starter kit when AGS goes into any mobile implementation.</p>
+                    <p>Some of the features that this app will deliver that can be reused across multiple mobile applications are:</p>
+                    <ul>
+                        <li>OAuth Login Flow between App & AEM</li>
+                        <li>Custom OAuth Scopes in AEM</li>
+                        <li>Custom Sling Model Exporter exposing Product data from AEM</li>
+                        <li>Locally cached Product data</li>
+                        <li>DeepLinking (used in OAuth)</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</ion-content>

@@ -1,0 +1,8 @@
+{
+  "name": "ags-mobile-starter-kit",
+  "app_id": "com.adobe.il.mobile",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

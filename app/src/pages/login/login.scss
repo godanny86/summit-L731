@@ -1,0 +1,68 @@
+page-login {
+  .page-signup .fixed-content {
+    background: url('../assets/images/background-main.jpg') no-repeat 0 0;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-size: cover;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .logo-login {
+    display: block;
+    margin:0 auto;
+    width:150px;
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+  .item-md, .item-ios {
+    padding:0 20px;
+    background: transparent;
+  }
+  .list-ios > .item-block:first-child {
+    border:none;
+  }
+  .text-input::-moz-placeholder {
+    color: white;
+  }
+  .text-input:-ms-input-placeholder {
+    color: white;
+  }
+  .text-input::-webkit-input-placeholder {
+    text-indent: 0;
+    color: white;
+  }
+  .item-md, ion-label, .text-input {
+    color:#fff;
+  }
+  .button-md, .button-md.activated, .button-ios, .button-ios.activated {
+    background-color: #3EBDC2;
+  }
+  .login-text {
+    color:#fff;
+    text-align:center;
+  }
+  .sign-up {
+    padding-top:50px;
+    padding-bottom: 20px;
+  }
+  .btn-signup-text {
+    background: transparent;
+    color:#fff;
+    text-decoration:underline;
+    font-size:1.4rem;
+  }
+  .forgot-password a {
+    color:#fff;
+    text-decoration:underline;
+  }
+}
+
+ion-card-content {
+  text-align: center;
+}
+
+ion-icon {
+  font-size: 120px;
+}
