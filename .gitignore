@@ -22,8 +22,8 @@ node_modules*
 app/platforms/android/
 app/platforms/ios/
 
-core/target/
-ui.apps/target/
+core/target
+ui.apps/target
 
 # OS Files
 .DS_Store
