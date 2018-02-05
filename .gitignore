@@ -19,8 +19,8 @@ www/
 plugins/
 node_modules*
 .sourcemaps/
-platforms/android/
-platforms/ios/
+app/platforms/android/
+app/platforms/ios/
 
 # OS Files
 .DS_Store
