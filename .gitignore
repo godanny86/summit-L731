@@ -22,6 +22,9 @@ node_modules*
 app/platforms/android/
 app/platforms/ios/
 
+core/target/
+ui.apps/target/
+
 # OS Files
 .DS_Store
 .brackets.json
