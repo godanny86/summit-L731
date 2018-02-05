@@ -22,6 +22,9 @@ node_modules*
 app/platforms/android/
 app/platforms/ios/
 
+summit-L731-aem/core/target
+summit-L731-aem/ui.apps/target
+
 # OS Files
 .DS_Store
 .brackets.json
