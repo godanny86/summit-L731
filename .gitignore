@@ -25,3 +25,4 @@ app/platforms/ios/
 # OS Files
 .DS_Store
 .brackets.json
+*.class
