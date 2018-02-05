@@ -3,7 +3,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { TranslateService } from '@ngx-translate/core';
 import { Config, Nav, Platform } from 'ionic-angular';
-import { Analytics } from '../providers/analytics/analytics';
 
 import {WelcomePage, LandingPage, LoginPage} from '../pages/pages';
 
@@ -33,22 +32,19 @@ export class MobileStarterKit {
 
   pages: any[] = [
     { title: 'Home', component: 'LandingPage' },
-    { title: 'About', component: 'AboutPage' },
+    { title: 'CS Overview', component: 'CSOverview' },
     { title: 'AEM Products', component: 'SMEOverviewPage' }
   ]
 
-  constructor(private analytics: Analytics, private translate: TranslateService, private platform: Platform, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen) {
+  constructor(private translate: TranslateService, private platform: Platform, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen) {
     this.initTranslate();
-      analytics.analyticsInit(null);
   }
 
   ionViewDidLoad() {
     this.platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
-      if (window['ADB']) {
-          window['ADB'].collectLifecycleData();
-      }
+
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });

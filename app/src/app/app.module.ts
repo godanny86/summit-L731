@@ -11,7 +11,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { Items } from '../mocks/providers/items';
-import { Settings, User, Api, TouchId, MSKInAppBrowser, MSKStorage, Analytics } from '../providers/providers';
+import { Settings, Api} from '../providers/providers';
 import { MobileStarterKit } from './app.component';
 import { KeychainTouchId } from '@ionic-native/keychain-touch-id';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
@@ -62,19 +62,8 @@ export function provideSettings(storage: Storage) {
   ],
   providers: [
     Api,
-    Analytics,
-    Items,
-    User,
-    Camera,
-    GoogleMaps,
-    SplashScreen,
-    KeychainTouchId,
-    InAppBrowser,
-    TouchId,
-    MSKStorage,
     StatusBar,
-    MSKInAppBrowser,
-    Deeplinks,
+    SplashScreen,
       Products,
     { provide: Settings, useFactory: provideSettings, deps: [Storage] },
     // Keep this to enable Ionic's runtime error handling during development
