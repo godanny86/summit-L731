@@ -1,3 +1,11 @@
+//** AUTHOR SERVER **//
+// export let SERVER_URL = encodeURIComponent("http://localhost:4502");
+
+export let STUBS_URL = "stubs/";
+
+export let STUBS = false;
+
+
 export let PRODUCT_CATEGORIES = "/content/we-retail/language-masters/en/products.model.json";
 
 export let CF_API_BASE = encodeURIComponent("/some/api/cf.json");
