@@ -1,8 +1,8 @@
 {
-  "name": "member-mobile",
+  "name": "summit-l731",
   "version": "0.0.1",
-  "author": "AGS",
-  "homepage": "http://www.highmark.com/",
+  "author": "Adobe Customer Solutions",
+  "homepage": "http://www.adobe.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -54,7 +54,7 @@
     "@ionic/app-scripts": "2.1.4",
     "typescript": "2.3.4"
   },
-  "description": "An Ionic project",
+  "description": "Adobe Summit 2018 - Lab 731",
   "cordova": {
     "plugins": {
       "cordova-plugin-device": {},

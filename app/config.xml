@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.adobe.il.mobile" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.adobe.summit.l731" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Summit Lab 731</name>
-    <description>Creating and Consuming Sling Models</description>
+    <description>Creating and Consuming Content Services</description>
     <author email="amol@adobe.com" href="http://adobe.com/">Adobe Global Services</author>
     <content src="index.html" />
     <access origin="*" />
