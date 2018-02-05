@@ -1,5 +1,5 @@
 //** AUTHOR SERVER **//
-// export let SERVER_URL = encodeURIComponent("http://localhost:4502");
+export let SERVER_URL = "http://localhost:4503";
 
 export let STUBS_URL = "stubs/";
 

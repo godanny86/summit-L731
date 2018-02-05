@@ -4,7 +4,6 @@ import {IonicPage, MenuController, NavParams, NavController} from 'ionic-angular
 import {Products} from "../../providers/products/products";
 import {SETTINGS_PRODUCT_CATEGORIES_KEY, SERVER_URL} from '../../providers/config';
 import {Settings} from '../../providers/settings/settings';
-import {User} from '../../providers/user/user';
 import {SMEDetailPage} from '../pages';
 
 @IonicPage()
@@ -18,7 +17,7 @@ export class SMEOverviewPage {
     //public productCategories: any;
     //private access_token: string;
 
-    constructor(public menuCtrl: MenuController, public navParams: NavParams, public navCtrl: NavController, public translateService: TranslateService, private products: Products, private settings: Settings, private user: User) {
+    constructor(public menuCtrl: MenuController, public navParams: NavParams, public navCtrl: NavController, public translateService: TranslateService, private products: Products, private settings: Settings) {
         console.log("In SMEOverviewPage constructor");
         let cats = navParams.get("childCategory");
         if(cats != null) {
