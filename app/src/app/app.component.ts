@@ -4,7 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { TranslateService } from '@ngx-translate/core';
 import { Config, Nav, Platform } from 'ionic-angular';
 
-import {WelcomePage, LandingPage, LoginPage} from '../pages/pages';
+import {LandingPage} from '../pages/pages';
 
 @Component({
   template: `<ion-menu [content]="content">
@@ -26,7 +26,7 @@ import {WelcomePage, LandingPage, LoginPage} from '../pages/pages';
   <ion-nav #content [root]="rootPage"></ion-nav>`
 })
 export class MobileStarterKit {
-  rootPage = WelcomePage;
+  rootPage = LandingPage;
 
   @ViewChild(Nav) nav: Nav;
 
