@@ -176,6 +176,12 @@
                 <version>1</version>
                 <scope>provided</scope>
             </dependency>
+            <dependency>
+                <groupId>com.adobe.cq</groupId>
+                <artifactId>core.wcm.components.all</artifactId>
+                <type>zip</type>
+                <version>2.0.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
