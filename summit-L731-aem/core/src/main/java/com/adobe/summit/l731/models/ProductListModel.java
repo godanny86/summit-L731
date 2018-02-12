@@ -28,7 +28,7 @@ import com.adobe.summit.l731.product.ProductCategory;
         resourceType = "weretail/components/structure/page",
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL
 )
-@Exporter(name = "jackson", extensions = "json", options = {
+@Exporter(name = "jackson", extensions = "json", selector = "api", options = {
         @ExporterOption(name = "MapperFeature.SORT_PROPERTIES_ALPHABETICALLY", value = "true"),
         @ExporterOption(name = "SerializationFeature.WRITE_DATES_AS_TIMESTAMPS", value="false")
 })

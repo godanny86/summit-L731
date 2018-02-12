@@ -1,15 +1,12 @@
 import 'rxjs/add/operator/map';
 import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
-import {Http, RequestOptions, Headers, Response} from '@angular/http';
+import {Http, RequestOptions, Response} from '@angular/http';
 
 import {PRODUCT_CATEGORIES, SERVER_URL, SETTINGS_PRODUCT_DETAILS_SELECTOR} from '../config';
 
 @Injectable()
 export class Products {
-
-    private categories: any;
-    private accessToken: string;
 
     constructor(private http: Http) {
     }
