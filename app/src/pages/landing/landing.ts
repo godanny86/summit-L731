@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavParams } from 'ionic-angular';
 import {Settings} from "../../providers/settings/settings";
-import {SETTINGS_USERNAME_KEY} from "../../providers/config";
 
 @IonicPage()
 @Component({
@@ -18,7 +17,5 @@ export class LandingPage {
         this.settings.load();
             //Coming in from the login screen
             console.log("Landing Page: Get User details");
-            
-
     }
 }

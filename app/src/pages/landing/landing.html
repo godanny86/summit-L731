@@ -18,18 +18,11 @@
         <img class="logo-login" src="assets/images/logo-login.png"/>
         <div class="splash-info">
             <div class="splash-intro">
-                <p *ngIf="username != ''">
-                    Hi {{username}},
-                </p>
-                    <p>The goal of this app is to be used as a starter kit when AGS goes into any mobile implementation.</p>
-                    <p>Some of the features that this app will deliver that can be reused across multiple mobile applications are:</p>
-                    <ul>
-                        <li>OAuth Login Flow between App & AEM</li>
-                        <li>Custom OAuth Scopes in AEM</li>
-                        <li>Custom Sling Model Exporter exposing Product data from AEM</li>
-                        <li>Locally cached Product data</li>
-                        <li>DeepLinking (used in OAuth)</li>
-                    </ul>
+                    <p>This mobile app is used in conjunction with Adobe Summit Lab L731.</p>
+                    <p>This app consumes content from Adobe Experience Manager 6.4 using Content Services</p>
+                <p>Products Menu uses Sling Model Exporters to expose existing We-Retail products from AEM</p>
+                <p>Summit FAQ Menu consumes content sitting in Content Fragments exposed via Content Services API Pages in AEM</p>
+                <!--<p>Summit Speakers Menu consumes content sitting in other Content Fragments built from a separate content fragment model exposed via Content Services API Pages in AEM</p>-->
             </div>
         </div>
     </div>

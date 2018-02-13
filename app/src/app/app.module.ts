@@ -1,8 +1,6 @@
 import { ErrorHandler, NgModule } from '@angular/core';
 import { Http, HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
-import { Camera } from '@ionic-native/camera';
-import { GoogleMaps } from '@ionic-native/google-maps';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { IonicStorageModule, Storage } from '@ionic/storage';
@@ -10,12 +8,8 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
-import { Items } from '../mocks/providers/items';
 import { Settings, Api} from '../providers/providers';
 import { MobileStarterKit } from './app.component';
-import { KeychainTouchId } from '@ionic-native/keychain-touch-id';
-import { InAppBrowser } from '@ionic-native/in-app-browser';
-import { Deeplinks } from '@ionic-native/deeplinks';
 import {Products} from "../providers/products/products";
 
 // The translate loader needs to know where to load i18n files

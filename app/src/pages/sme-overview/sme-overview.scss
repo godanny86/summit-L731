@@ -24,12 +24,16 @@
     color: #fff;
   }
 
+  .hero-card {
+    margin-bottom: 52px;
+  }
+
   .hero-title {
     position: absolute;
     top: 36%;
     font-size: 3.0em;
     width: 100%;
-    font-weight: bold;
+    font-weight: bolder;
     color: #fff;
     padding:26px;
     background-color: rgba(0, 0, 0, 0.5);
