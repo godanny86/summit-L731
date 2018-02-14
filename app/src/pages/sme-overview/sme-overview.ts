@@ -38,7 +38,6 @@ export class SMEOverviewPage {
                         console.log("Finished constructor in SME Overview page. title: "+this.categories.title);
                     }, (err)=>{
                         console.error("Error getting Categories: "+err.message);
-                        //TODO: Figure out error flow if categories doesnt return. Most probably show error toast and take them to login
                     });
                 }
             });

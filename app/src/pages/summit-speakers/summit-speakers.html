@@ -1,0 +1,40 @@
+
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Summit Speakers</ion-title>
+        <ion-buttons end>
+            <button ion-button class="rightButton">
+                <ion-icon></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="page-summit-speakers">
+    <ion-card class="speaker-card">
+        <!--<img src="img/nin-live.png"/>-->
+        <ion-card-content>
+            <ion-card-title>
+               <h1>{{title}}</h1>
+            </ion-card-title>
+            <p [innerHtml]="text"></p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card *ngFor="let item of speakers">
+        <ion-item>
+            <ion-avatar item-start>
+                <ion-icon name="person"></ion-icon>
+            </ion-avatar>
+            <h2 class="speaker-name">{{ item.speaker["elements"]["speakerName"]["value"] }}</h2>
+            <p>{{ item.speaker["elements"]["speakerDOB"]["value"] | date : shortDate }}</p>
+        </ion-item>
+        <img src="{{ getImage(item.speaker['elements']['speakerImage']['value']) }}">
+        <ion-card-content>
+            <p [innerHtml]="item.speaker['elements']['speakerByline']['value']"></p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

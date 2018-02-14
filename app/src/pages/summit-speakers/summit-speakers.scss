@@ -1,0 +1,28 @@
+.page-summit-speakers{
+  background-image: url('../assets/images/home-background.png');
+  ion-header {
+    .toolbar-title {
+      font-weight: 200;
+    }
+    .rightButton ion-icon {
+      content: url('../assets/images/logo-login.png');
+      height: 25px;
+      width: 25px;
+    }
+  }
+  ion-card-title {
+    position: relative;
+    text-align: center;
+
+  }
+
+  ion-card-content {
+    text-align: left;
+  }
+
+  .speaker-name {
+    color: #4ECDC4;
+    font-weight: bolder;
+  }
+
+}

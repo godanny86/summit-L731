@@ -25,14 +25,14 @@ import {LandingPage} from '../pages/pages';
   </ion-menu>
   <ion-nav #content [root]="rootPage"></ion-nav>`
 })
-export class MobileStarterKit {
+export class L731MobileApp {
   rootPage = LandingPage;
 
   @ViewChild(Nav) nav: Nav;
 
   pages: any[] = [
     { title: 'Home', component: 'LandingPage' },
-    { title: 'CS Overview', component: 'CSOverview' },
+    { title: 'Summit Speakers', component: 'SummitSpeakersPage' },
     { title: 'AEM Products', component: 'SMEOverviewPage' }
   ]
 

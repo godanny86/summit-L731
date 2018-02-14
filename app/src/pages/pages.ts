@@ -1,15 +1,12 @@
-// The page the user lands on after opening the app and without a session
-export const FirstRunPage = 'TutorialPage';
-
 // The main page the user will see as they use the app over a long period of time.
-// Change this if not using tabs
-export const MainPage = 'TabsPage';
-
-
-
 export const LandingPage = 'LandingPage';
 
-export const CAASOverviewPage = 'CAASOverviewPage';
-export const CAASDetailPage = 'CAASDetailPage';
+// Product Pages
 export const SMEOverviewPage = 'SMEOverviewPage';
 export const SMEDetailPage = 'SMEDetailPage';
+
+// Summit Speakers Page
+export const SummitSpeakersPage = 'SummitSpeakersPage';
+
+// FAQ Page
+export const FAQPage = 'FAQPage';

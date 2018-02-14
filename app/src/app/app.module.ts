@@ -8,9 +8,8 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
-import { Settings, Api} from '../providers/providers';
-import { MobileStarterKit } from './app.component';
-import {Products} from "../providers/products/products";
+import { Settings, Api, Products, Speakers, FAQ} from '../providers/providers';
+import { L731MobileApp } from './app.component';
 
 // The translate loader needs to know where to load i18n files
 // in Ionic's static asset pipeline.
@@ -35,7 +34,7 @@ export function provideSettings(storage: Storage) {
 
 @NgModule({
   declarations: [
-      MobileStarterKit
+      L731MobileApp
   ],
   imports: [
     BrowserModule,
@@ -47,18 +46,20 @@ export function provideSettings(storage: Storage) {
         deps: [Http]
       }
     }),
-    IonicModule.forRoot(MobileStarterKit),
+    IonicModule.forRoot(L731MobileApp),
     IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-      MobileStarterKit
+      L731MobileApp
   ],
   providers: [
     Api,
     StatusBar,
     SplashScreen,
       Products,
+      Speakers,
+      FAQ,
     { provide: Settings, useFactory: provideSettings, deps: [Storage] },
     // Keep this to enable Ionic's runtime error handling during development
     { provide: ErrorHandler, useClass: IonicErrorHandler }

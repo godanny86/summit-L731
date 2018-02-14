@@ -36,7 +36,6 @@ export class SMEDetailPage {
                         console.log("Finished constructor in SME Details page.");
                     }, (err)=>{
                         console.error("Error getting Product Details: "+err.message);
-                        //TODO: Figure out error flow if categories doesnt return. Most probably show error toast and take them to login
                     });
                 }
             });
