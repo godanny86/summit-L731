@@ -1,4 +1,5 @@
 .page-summit-speakers{
+
   background-image: url('../assets/images/home-background.png');
   ion-header {
     .toolbar-title {
@@ -10,10 +11,12 @@
       width: 25px;
     }
   }
+
   ion-card-title {
     position: relative;
     text-align: center;
-
+    color: #3EBDC2;
+    font-weight: bolder;
   }
 
   ion-card-content {
@@ -21,7 +24,7 @@
   }
 
   .speaker-name {
-    color: #4ECDC4;
+    color: #3EBDC2;
     font-weight: bolder;
   }
 

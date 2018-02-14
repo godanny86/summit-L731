@@ -11,6 +11,13 @@ page-landing.ion-page {
     }
   }
 
+  ion-card-title {
+    position: relative;
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bolder;
+    color: #3EBDC2;
+  }
   .content-ios, .content-md {
     background-color:transparent;
   }
@@ -18,8 +25,8 @@ page-landing.ion-page {
     display: block;
     margin:0 auto;
     width:150px;
-    padding-top:50px;
-    padding-bottom: 50px;
+    padding-top:10px;
+    padding-bottom: 10px;
   }
   .landing-content {
     display: block;
@@ -39,7 +46,6 @@ page-landing.ion-page {
       left: 2.5%;
 
       .topText {
-        font-family: Helvetica Neue;
         font-size: 80px;
         opacity: 0.62;
       }
@@ -50,11 +56,11 @@ page-landing.ion-page {
       height: 128px;
     }
     .splash-intro {
-      font-size: 18px;
-      font-weight: bold;
+      //font-size: 18px;
+      //font-weight: bold;
       max-width: 90%;
       margin: auto;
-      color: #3EBDC2;
+      //color: #3EBDC2;
     }
     .splash-info {
 
