@@ -15,7 +15,6 @@
 
 <ion-content class="page-sme-overview">
     <ion-card class="hero-card">
-        <img class="hero-img" src="{{getImage(categories?.image)}}" />
         <div class="hero-title">{{categories?.title | uppercase}}</div>
     </ion-card>
     <ion-card class="category-card" *ngFor="let category of categories?.categories">
