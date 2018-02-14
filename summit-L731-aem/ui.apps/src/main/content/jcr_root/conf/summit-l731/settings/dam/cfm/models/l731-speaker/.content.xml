@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Template"
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2018-02-11T23:01:24.799-05:00"
+        cq:lastModified="{Date}2018-02-11T21:38:10.838-05:00"
         cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2018-02-11T23:12:17.605-05:00"
+        cq:lastReplicated="{Date}2018-02-11T22:37:33.451-05:00"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:scaffolding="/conf/summit-l731/settings/dam/cfm/models/summit-faq/jcr:content/model"
+        cq:scaffolding="/conf/summit-l731/settings/dam/cfm/models/l731-speaker/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Summit FAQ Section"
+        jcr:title="Conference Speaker"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default">
         <model
@@ -29,52 +29,65 @@
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="21">
-                        <_x0031_518408158710
+                        maxGeneratedOrder="20">
+                        <speakerName
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                            fieldDescription="Please enter the FAQ Section Title here"
-                            fieldLabel="FAQ Section Title"
+                            emptyText="FirstName LastName"
+                            fieldDescription="Please enter the Speaker's Name"
+                            fieldLabel="Speaker Name"
                             listOrder="1"
                             maxlength="255"
                             metaType="text-single"
-                            name="faqSectionTitle"
+                            name="speakerName"
                             renderReadOnly="false"
-                            required="on"
                             showEmptyInReadOnly="true"
                             valueType="string"/>
-                        <_x0031_518408182868
+                        <speakerByline
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
-                            cfm-element="FAQ Section Description"
-                            fieldDescription="Please enter the FAQ Section Description here"
+                            cfm-element="Speaker Byline"
+                            fieldDescription="Please enter the speaker byline here"
                             listOrder="2"
                             metaType="text-multi"
-                            name="faqSectionDescription"
+                            name="speakerByline"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string"/>
-                        <_x0031_518408390513
+                        <speakerImage
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
-                            fieldDescription="Please select all the FAQs under this section"
-                            fieldLabel="FAQs"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldDescription="Please select the speaker headshot here"
+                            fieldLabel="Speaker Headshot"
                             filter="hierarchy"
-                            listOrder="21"
+                            listOrder="8"
                             metaType="reference"
-                            name="faqs"
+                            name="speakerImage"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath="/content/dam/summit-lab-731/faq-fragments"
+                            rootPath="/content/dam/summit-lab-731/speaker-images"
                             showEmptyInReadOnly="true"
-                            valueType="string[]">
-                            <field
+                            valueType="string"/>
+                        <speakerDOB
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/datepicker"
+                            displayedFormat="YYYY-MM-DD HH:mm:ss"
+                            emptyText="YYYY-MM-DD HH:mm"
+                            fieldDescription="Please select the Speaker's date of birth here"
+                            fieldLabel="Speaker Date of Birth"
+                            listOrder="5"
+                            metaType="date"
+                            name="speakerDOB"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            type="datetime"
+                            value="{Date}2018-03-29T00:00:00.000-04:00"
+                            valueFormat="YYYY-MM-DD[T]HH:mm:ss.000Z"
+                            valueType="calendar">
+                            <granite:data
                                 jcr:primaryType="nt:unstructured"
-                                sling:resourceType="dam/cfm/models/editor/components/contentreference"
-                                name="faqs"
-                                renderReadOnly="false"
-                                rootPath="/content/dam/summit-lab-731/faq-fragments"/>
-                        </_x0031_518408390513>
+                                typeHint="Date"/>
+                        </speakerDOB>
                     </items>
                 </content>
             </cq:dialog>

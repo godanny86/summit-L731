@@ -12,7 +12,7 @@
         cq:scaffolding="/conf/summit-l731/settings/dam/cfm/models/l731-author/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Conference Speaker"
+        jcr:title="Author Bio"
         sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
         sling:resourceType="dam/cfm/models/console/components/data/entity/default">
         <model
