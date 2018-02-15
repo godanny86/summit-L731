@@ -1,0 +1,37 @@
+
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>FAQ</ion-title>
+        <ion-buttons end>
+            <button ion-button class="rightButton">
+                <ion-icon></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="page-faq">
+    <ion-card class="faq-card">
+        <ion-card-content>
+            <ion-card-title text-wrap>
+               <h1>{{title}}</h1>
+            </ion-card-title>
+            <p [innerHtml]="text"></p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card *ngFor="let item of faqs">
+        <ion-item text-wrap>
+            <ion-avatar item-left>
+                <ion-icon name="information"></ion-icon>
+            </ion-avatar>
+            <h2 class="faq-name">{{ item.faq["elements"]["question"]["value"] }}</h2>
+        </ion-item>
+        <ion-card-content padding>
+            <p [innerHtml]="item.faq['elements']['answer']['value']"></p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

@@ -33,6 +33,7 @@ export class L731MobileApp {
   pages: any[] = [
     { title: 'Home', component: 'LandingPage' },
     { title: 'Summit Speakers', component: 'SummitSpeakersPage' },
+    { title: 'Summit FAQ', component: 'FAQPage' },
     { title: 'AEM Products', component: 'SMEOverviewPage' }
   ]
 

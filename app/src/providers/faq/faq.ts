@@ -11,7 +11,7 @@ export class FAQ {
     constructor(private http: Http) {
     }
 
-    getCategories(): Observable<Response>{
+    getFAQs(): Observable<Response>{
         //Make call out to FAQ endpoint and get JSON back.
         console.log("Make a call out to get the categories");
 
