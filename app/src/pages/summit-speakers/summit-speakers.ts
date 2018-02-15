@@ -16,7 +16,6 @@ export class SummitSpeakersPage {
     public title: string;
     public text: string;
     public itemsOrder: any;
-    private key: string;
 
     constructor(public menuCtrl: MenuController, public navParams: NavParams, public navCtrl: NavController, public translateService: TranslateService, private speakersService: Speakers) {
         console.log("In Summit Speakers constructor");
@@ -24,16 +23,16 @@ export class SummitSpeakersPage {
             console.log("Items: "+JSON.stringify(res));
             this.itemsOrder = res[":items"]["root"][":itemsOrder"];
             this.items = res[":items"]["root"][":items"];
-            console.log("Finished constructor in Speakers. title: "+this.items["title"]["text"]);
             this.title = this.items["title"]["text"];
             this.text = this.items["text"]["text"];
-            for(var i=0; i<this.itemsOrder.length; i++){
-                this.key = this.itemsOrder[i];
-                if(this.key.indexOf("contentfragment") >= 0){
-                    console.log("contentfragment found - "+this.key);
-                    this.speakers.push({speaker: this.items[this.key]});
+
+            this.itemsOrder.forEach(function(itemKey) {
+                var currItem = this.items[itemKey];
+                if(currItem[":type"] === 'weretail/components/content/contentfragment'){
+                    this.speakers.push({speaker: currItem});
                 }
-            }
+            }, this);
+
         }, (err)=>{
             console.error("Error getting Speakers: "+err.message);
         });
@@ -42,6 +41,5 @@ export class SummitSpeakersPage {
     getImage(image: string): string{
         return SERVER_URL+image;
     }
-
 
 }
