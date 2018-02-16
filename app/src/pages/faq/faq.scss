@@ -12,6 +12,10 @@
     }
   }
 
+  .faq-card {
+    //background-color: rgba(0,0,0,0.2);
+  }
+
   ion-card-title {
     position: relative;
     text-align: center;
@@ -20,24 +24,21 @@
   }
 
   ion-card-content {
+    position: relative;
     text-align: left;
-	max-height: 0;
-	overflow: hidden;
-	padding: 0;
-	-webkit-transition: max-height .5s;
-	-o-transition: max-height .5s;
-	transition: max-height .5s;
-	&.active {
-		max-height: 10em;
-		padding: 16px;
-	}
   }
-  
+
+  ion-item {
+    background-color: rgba(62,189,194,0.5);
+  }
+
+  .faq-answer {
+    background-color: rgba(62,189,194,0.25);
+    font-weight: bolder;
+  }
 
   .faq-name {
-    color: #3EBDC2;
     font-weight: bolder;
-
   }
 
 }

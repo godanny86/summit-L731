@@ -15,23 +15,26 @@
 
 <ion-content class="page-faq">
     <ion-card class="faq-card">
-        <ion-card-content>
-            <ion-card-title text-wrap>
-               <h1>{{title}}</h1>
-            </ion-card-title>
+        <ion-card-title text-wrap>
+            <h1>{{title | uppercase}}</h1>
+        </ion-card-title>
+        <ion-card-content text-center>
             <p [innerHtml]="text"></p>
         </ion-card-content>
     </ion-card>
 
     <ion-card *ngFor="let item of faqs">
-        <ion-item text-wrap (click)='toggleAccordion(item);'>
-            <ion-avatar item-left>
-                <ion-icon name="information"></ion-icon>
+        <ion-item text-wrap (click)="toggleGroup(item)" [ngClass]="{active: isGroupShown(i)}">
+            <ion-avatar item-left *ngIf="!isGroupShown(item)">
+                <ion-icon name="arrow-forward"></ion-icon>
+            </ion-avatar>
+            <ion-avatar item-left *ngIf="isGroupShown(item)">
+                <ion-icon name="arrow-down"></ion-icon>
             </ion-avatar>
             <h2 class="faq-name">{{ item.faq["elements"]["question"]["value"] }}</h2>
         </ion-item>
-        <ion-card-content [ngClass]="{'active': item.active}">
-            <p [innerHtml]="item.faq['elements']['answer']['value']"></p>
+        <ion-card-content class="faq-answer" *ngIf="isGroupShown(item)">
+            <p padding [innerHtml]="item.faq['elements']['answer']['value']"></p>
         </ion-card-content>
     </ion-card>
 </ion-content>

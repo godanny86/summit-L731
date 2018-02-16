@@ -16,6 +16,7 @@ export class FAQPage {
     public title: string;
     public text: string;
     public itemsOrder: any;
+    private shownGroup: any;
 
     constructor(public menuCtrl: MenuController, public navParams: NavParams, public navCtrl: NavController, public translateService: TranslateService, private faqService: FAQ) {
         console.log("In FAQ constructor");
@@ -41,9 +42,17 @@ export class FAQPage {
     getImage(image: string): string{
         return SERVER_URL+image;
     }
-    
-    toggleAccordion(item) {
-		item.active = !item.active;
+
+    toggleGroup(group) {
+        if (this.isGroupShown(group)) {
+            this.shownGroup = null;
+        } else {
+            this.shownGroup = group;
+        }
+    }
+
+    isGroupShown(group) {
+        return this.shownGroup === group;
     }
 
 }
