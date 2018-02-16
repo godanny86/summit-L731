@@ -24,13 +24,13 @@
     </ion-card>
 
     <ion-card *ngFor="let item of faqs">
-        <ion-item text-wrap>
+        <ion-item text-wrap (click)='toggleAccordion(item);'>
             <ion-avatar item-left>
                 <ion-icon name="information"></ion-icon>
             </ion-avatar>
             <h2 class="faq-name">{{ item.faq["elements"]["question"]["value"] }}</h2>
         </ion-item>
-        <ion-card-content padding>
+        <ion-card-content [ngClass]="{'active': item.active}">
             <p [innerHtml]="item.faq['elements']['answer']['value']"></p>
         </ion-card-content>
     </ion-card>

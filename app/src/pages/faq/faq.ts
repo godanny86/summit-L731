@@ -41,5 +41,9 @@ export class FAQPage {
     getImage(image: string): string{
         return SERVER_URL+image;
     }
+    
+    toggleAccordion(item) {
+		item.active = !item.active;
+    }
 
 }
