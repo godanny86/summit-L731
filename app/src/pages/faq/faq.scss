@@ -29,6 +29,7 @@
 	transition: max-height .5s;
 	&.active {
 		max-height: 10em;
+		padding: 16px;
 	}
   }
   
