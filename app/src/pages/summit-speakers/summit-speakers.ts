@@ -16,6 +16,7 @@ export class SummitSpeakersPage {
     public title: string;
     public text: string;
     public itemsOrder: any;
+    private shownGroup: any;
 
     constructor(public menuCtrl: MenuController, public navParams: NavParams, public navCtrl: NavController, public translateService: TranslateService, private speakersService: Speakers) {
         console.log("In Summit Speakers constructor");
@@ -40,6 +41,18 @@ export class SummitSpeakersPage {
 
     getImage(image: string): string{
         return SERVER_URL+image;
+    }
+
+    toggleGroup(group) {
+        if (this.isGroupShown(group)) {
+            this.shownGroup = null;
+        } else {
+            this.shownGroup = group;
+        }
+    }
+
+    isGroupShown(group) {
+        return this.shownGroup === group;
     }
 
 }

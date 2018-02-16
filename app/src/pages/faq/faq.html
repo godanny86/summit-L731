@@ -25,12 +25,8 @@
 
     <ion-card *ngFor="let item of faqs">
         <ion-item text-wrap (click)="toggleGroup(item)" [ngClass]="{active: isGroupShown(i)}">
-            <ion-avatar item-left *ngIf="!isGroupShown(item)">
-                <ion-icon name="arrow-forward"></ion-icon>
-            </ion-avatar>
-            <ion-avatar item-left *ngIf="isGroupShown(item)">
-                <ion-icon name="arrow-down"></ion-icon>
-            </ion-avatar>
+            <ion-icon item-start name="arrow-dropright" *ngIf="!isGroupShown(item)"></ion-icon>
+            <ion-icon item-start name="arrow-dropdown" *ngIf="isGroupShown(item)"></ion-icon>
             <h2 class="faq-name">{{ item.faq["elements"]["question"]["value"] }}</h2>
         </ion-item>
         <ion-card-content class="faq-answer" *ngIf="isGroupShown(item)">
