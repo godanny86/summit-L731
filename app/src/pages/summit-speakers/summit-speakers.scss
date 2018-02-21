@@ -12,7 +12,7 @@
     }
   }
 
-  ion-card-title {
+  ion-card-title h1 {
     position: relative;
     text-align: center;
     color: #3EBDC2;
@@ -28,4 +28,7 @@
     font-weight: bolder;
   }
 
+  ion-icon {
+    color: #3EBDC2;
+  }
 }
