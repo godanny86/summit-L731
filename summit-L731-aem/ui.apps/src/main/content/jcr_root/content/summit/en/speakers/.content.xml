@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-03-08T20:11:02.650-05:00"
+        cq:lastModifiedBy="reference-adjustment-service"
+        cq:template="/conf/summit-l731/settings/wcm/templates/summit-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Speakers"
+        sling:resourceType="summit-l731/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-03-06T21:09:36.315-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-06T21:10:28.670-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <contentfragment
+                    cq:styleIds="[1520390780172]"
+                    jcr:created="{Date}2018-03-07T15:53:04.953-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-07T15:53:56.880-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l731/components/content/contentfragment"
+                    cardId="aem-kickbackNotification"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-s230/bear/bear-puppydog"
+                    paragraphScope="all"
+                    text="                    Speaker Name                                            Bear Puppydog            &#xa;&#xa;                        Speaker Byline                                            Bear is a rescue pitt-labb mix who resides in New Jersey. She is famous for catching many tennis balls. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed ut dui. Morbi malesuada nulla nec purus convallis consequat. Vivamus id mollis quam. Morbi ac commodo nulla. In condimentum orci id nisl volutpat &#xa;&#xa;In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. .&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;                        Speaker Headshot                                            /content/dam/summit-s230/bear/bear-headshot.jpg            &#xa;&#xa;                        Instagram                                                        &#xa;&#xa;                        Speaker Date of Birth                                    2016-02-14 00:00                                    &#xa;&#xa;"
+                    variationName="master"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+    <bear-puppydog/>
+</jcr:root>

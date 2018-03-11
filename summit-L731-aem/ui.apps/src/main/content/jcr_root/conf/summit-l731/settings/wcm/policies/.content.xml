@@ -21,8 +21,63 @@
                             jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"/>
                     </policy_1518573148342>
+                    <policy_712648621601334
+                        jcr:lastModified="{Date}2018-03-08T21:19:57.694-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Summit Structure"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Summit Lab L731,group:Summit.Content,group:Summit.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_712648621601334>
+                    <policy_712740132475333
+                        jcr:lastModified="{Date}2018-03-08T21:26:49.005-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Summit Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Summit Lab L731,group:Summit.Content]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1520562242413
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
+                                    droptarget="contentfragment"
+                                    resourceType="summit-l731/components/content/contentfragment"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                    </policy_712740132475333>
                 </responsivegrid>
             </components>
         </foundation>
     </wcm>
+    <summit-l731 jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <content jcr:primaryType="nt:unstructured">
+                <contentfragment jcr:primaryType="nt:unstructured">
+                    <policy_1520390757981
+                        jcr:lastModified="{Date}2018-03-06T21:48:40.878-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Content Fragment Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0 jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-cf-speaker"
+                                        cq:styleId="1520390780172"
+                                        cq:styleLabel="Speaker Bio"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1520390757981>
+                </contentfragment>
+            </content>
+        </components>
+    </summit-l731>
 </jcr:root>

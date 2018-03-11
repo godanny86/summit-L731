@@ -9,4 +9,6 @@
         <include pattern="/etc/designs/summit-l731/jcr:content/clientlibs"/>
         <include pattern="/etc/designs/summit-l731/jcr:content/clientlibs/.*"/>
     </filter>
+    <filter root="/content/summit" mode="merge"/>
+    <filter root="/content/dam/summit-s230" mode="merge"/>
 </workspaceFilter>
