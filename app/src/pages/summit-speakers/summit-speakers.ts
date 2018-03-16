@@ -22,14 +22,14 @@ export class SummitSpeakersPage {
         console.log("In Summit Speakers constructor");
         this.speakersService.getSpeakers().map((res)=>res.json()).subscribe((res)=>{
             console.log("Items: "+JSON.stringify(res));
-            this.itemsOrder = res[":items"]["root"][":itemsOrder"];
-            this.items = res[":items"]["root"][":items"];
+            this.itemsOrder = res[":items"]["root"][":items"]["responsivegrid"][":itemsOrder"];
+            this.items = res[":items"]["root"][":items"]["responsivegrid"][":items"];
             this.title = this.items["title"]["text"];
-            this.text = this.items["text"]["text"];
+            //this.text = this.items["text"]["text"];
 
             this.itemsOrder.forEach(function(itemKey) {
                 var currItem = this.items[itemKey];
-                if(currItem[":type"] === 'weretail/components/content/contentfragment'){
+                if(currItem[":type"] === 'summit-l731/components/content/contentfragment'){
                     this.speakers.push({speaker: currItem});
                 }
             }, this);
