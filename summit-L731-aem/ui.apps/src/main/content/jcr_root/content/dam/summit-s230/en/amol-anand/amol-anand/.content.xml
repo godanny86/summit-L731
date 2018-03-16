@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8098295d-6553-4645-84f7-f5dda7e054da">
+    <jcr:content
+        cq:name="amol-anand"
+        cq:parentPath="/content/dam/summit-s230/en/amol-anand"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-03-16T13:10:48.680-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Amol Anand"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-03-16T13:10:48.680-04:00">
+        <data
+            cq:model="/conf/summit-l731/settings/dam/cfm/models/l731-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>Amol Anand is a Principal Consultant with Adobe Customer Solutions and is a Practice Lead for Mobile and AEM Content Services with the AEM Emerging Technologies Practice. He has over 11 years of experience in the content management space and has worked with Adobe for more than 6 years helping clients with Adobe Experience Manager and other Marketing Cloud solutions.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2018-03-16T13:10:48.655-04:00"
+                speakerDOB="{Date}2018-03-29T00:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2018-03-16T13:10:48.655-04:00"
+                speakerImage="/content/dam/summit-s230/en/amol-anand/amol-bw.jpg"
+                speakerImage_x0040_LastModified="{Date}2018-03-16T13:10:48.655-04:00"
+                speakerName="Amol Anand"
+                speakerName_x0040_LastModified="{Date}2018-03-16T13:10:48.655-04:00"
+                speakerPage="/content/summit/en/speakers/amol-anand"
+                speakerPage_x0040_LastModified="{Date}2018-03-16T13:10:48.656-04:00"
+                speakerTitle="Principal Consultant, Adobe"
+                speakerTitle_x0040_LastModified="{Date}2018-03-16T13:10:48.655-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2018-03-16T13:13:19.773-04:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="75c9c4a0-33f9-4441-8eec-8beca821a74d">
+    <jcr:content
+        cq:name="leslie-jones"
+        cq:parentPath="/content/dam/summit-s230/en/leslie-jones"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-03-16T12:20:44.912-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Leslie Jones"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-03-16T12:20:44.912-04:00">
+        <data
+            cq:model="/conf/summit-l731/settings/dam/cfm/models/l731-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>Leslie Jones is one of the stars of Paul Feig’s Ghostbusters reboot for Sony Studios, opposite Melissa McCarthy, Kristen Wiig and Kate McKinnon – the film was released in theatres worldwide July 2016. In 2014, Leslie was hired by SNL as a writer and quickly gained popularity after a memorable on-air appearance during the show's &amp;quot;Weekend Update&amp;quot; segment.&amp;nbsp; Jones officially joined the cast during the show’s 40th season.&amp;nbsp; Returning for her second season, The New Yorker profiled Jones and Vulture has cited her as an &amp;quot;‘SNL’ standout due to her brash sensibility, humor, and forceful presence.&amp;quot; &amp;nbsp;Slate praised Jones as “smart, talented, and utterly hilarious” and noted, “Jones is a fiercely independent performer who’s brash and unapologetic riffs can ruffle feathers – a welcome risk.”&lt;br>&#xa;Jones’ film credits include Chris Rock's Top Five and Judd Apatow's Trainwreck. She voiced an animated character in the studio feature Sing, for Illumination Entertainment, opposite Matthew McConaughey and John C. Reilly.&amp;nbsp;Jones joined Tracy Morgan, Chris Rock and Whoopi Goldberg in an epic 2016 Oscars sketch, reimagining an Oscars montage starring black actors.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2018-03-16T12:20:44.892-04:00"
+                speakerDOB="{Date}2018-03-29T00:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2018-03-16T12:20:44.892-04:00"
+                speakerImage="/content/dam/summit-s230/en/leslie-jones/leslie-jones.png"
+                speakerImage_x0040_LastModified="{Date}2018-03-16T12:20:44.892-04:00"
+                speakerName="Leslie Jones"
+                speakerName_x0040_LastModified="{Date}2018-03-16T12:20:44.892-04:00"
+                speakerPage="/content/summit/en/speakers/leslie-jones"
+                speakerPage_x0040_LastModified="{Date}2018-03-16T12:20:44.893-04:00"
+                speakerTitle="Actress, writer"
+                speakerTitle_x0040_LastModified="{Date}2018-03-16T12:20:44.892-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

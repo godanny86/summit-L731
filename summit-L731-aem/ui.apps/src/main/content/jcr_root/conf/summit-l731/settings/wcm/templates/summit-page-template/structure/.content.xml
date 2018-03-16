@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2018-03-06T21:40:35.375-05:00"
+        cq:lastModified="{Date}2018-03-16T13:21:11.857-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/summit-l731/settings/wcm/templates/summit-page-template"
         jcr:primaryType="cq:PageContent"
@@ -31,19 +31,25 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd/components/structure/search"/>
             </header>
-            <image
-                jcr:created="{Date}2018-03-06T21:08:58.635-05:00"
+            <image_1245764553
+                jcr:created="{Date}2018-03-16T13:19:41.369-04:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2018-03-06T21:40:08.284-05:00"
+                jcr:lastModified="{Date}2018-03-16T13:19:50.281-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="summit-l731/components/content/image"
-                alt="Summit banner"
-                displayPopupTitle="false"
-                fileName="summit_2018_reg_banner.jpg"
-                isDecorative="false">
-                <file/>
-            </image>
+                altValueFromDAM="true"
+                displayPopupTitle="true"
+                fileReference="/content/dam/summit-s230/speaker-banner.jpg"
+                isDecorative="false"
+                titleValueFromDAM="true"/>
+            <breadcrumb
+                jcr:created="{Date}2018-03-15T16:01:05.230Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-15T16:01:05.230Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="summit-l731/components/content/breadcrumb"/>
             <responsivegrid
                 jcr:created="{Date}2018-03-06T21:09:36.315-05:00"
                 jcr:createdBy="admin"

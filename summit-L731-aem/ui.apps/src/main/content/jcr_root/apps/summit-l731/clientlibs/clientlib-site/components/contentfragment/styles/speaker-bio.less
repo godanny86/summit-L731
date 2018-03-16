@@ -13,28 +13,49 @@
 	.cmp-contentfragment__element--speakerImage {
 		display: none;
 	}
+	
+	.cmp-contentfragment__element--speakerPage {
+		display: none;
+	}
+	
 	.cmp-contentfragment__element--speakerDOB {
 		font-family: @font-family-sans-serif;
 		color: #666;
+		float:left;
 	}
-	
-	.cmp-speaker-img {
-		float: left;
-		position: relative;
-		margin-right: 1.5em;
-		cursor: pointer;
-    		transition: all 0.3s ease;
-    		overflow:hidden;
-		
-		.border-box-highlight {
-			position: absolute;
-		    height: 100%;
-		    top: 20px;
-		    left: 20px;
-		    right: 20px;
-		    border: 1px solid #4ECDC4;
-		}
-	}
-	
 
+	.cmp-contentfragment__element--speakerTitle {
+		font-family: @font-family-sans-serif;
+		color: #555;
+		border-bottom: 1px solid #ffe72b;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+	
+	.cmp-contentfragment__element--speakerByline {
+	
+		p {
+			line-height: 2em;
+			text-align:left;
+		}
+		
+	}
+}
+
+.cmp-speaker-img {
+	float: left;
+	position: relative;
+	margin-right: 1.5em;
+	cursor: pointer;
+   		transition: all 0.3s ease;
+   		overflow:hidden;
+	
+	.border-box-highlight {
+		position: absolute;
+	    height: 100%;
+	    top: 20px;
+	    left: 20px;
+	    right: 20px;
+	    border: 1px solid #4ECDC4;
+	}
 }

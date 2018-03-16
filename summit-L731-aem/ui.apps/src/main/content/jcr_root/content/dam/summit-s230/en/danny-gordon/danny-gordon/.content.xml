@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ecb9d3ca-bb38-444a-932c-ed2aec991acf">
+    <jcr:content
+        cq:name="danny-gordon"
+        cq:parentPath="/content/dam/summit-s230/en/danny-gordon"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-03-16T12:40:06.481-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Danny Gordon"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-03-16T12:40:06.481-04:00">
+        <data
+            cq:model="/conf/summit-l731/settings/dam/cfm/models/l731-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>Danny is a Technical Marketing Engineer with AEM's Tech Marketing Team. The team focuses on promoting the best practices and latest features of AEM for continued customer success. Danny is also a core contributor to the open-source Asset Share Commons project. Prior, Danny had spent 5 years with Adobe Global Services as an AEM Architect, leading implementations across a number of industry verticals.&lt;br>&#xa;&lt;br>&#xa;Danny resides in New Jersey with his girlfriend Jamie and their puppy Bear.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2018-03-16T12:40:06.461-04:00"
+                speakerDOB="{Date}2018-03-29T00:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2018-03-16T12:40:06.462-04:00"
+                speakerImage="/content/dam/summit-s230/en/danny-gordon/danny-headshot.jpg"
+                speakerImage_x0040_LastModified="{Date}2018-03-16T12:40:06.461-04:00"
+                speakerName="Danny Gordon"
+                speakerName_x0040_LastModified="{Date}2018-03-16T12:40:06.460-04:00"
+                speakerPage="/content/summit/en/speakers/danny-gordon"
+                speakerPage_x0040_LastModified="{Date}2018-03-16T12:40:06.462-04:00"
+                speakerTitle="AEM Tech Marketing"
+                speakerTitle_x0040_LastModified="{Date}2018-03-16T12:40:06.461-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}2"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}2"
+                lastUsed="{Date}2018-03-16T13:13:09.223-04:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

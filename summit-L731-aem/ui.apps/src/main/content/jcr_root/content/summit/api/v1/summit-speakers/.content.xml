@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-03-16T13:13:19.813-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/summit-l731/settings/wcm/templates/api-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Summit Speakers"
+        sling:resourceType="summit-l731/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-03-08T21:20:02.624-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-08T21:20:06.140-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <contentfragment
+                    jcr:created="{Date}2018-03-08T21:27:23.874-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-08T21:27:23.874-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l731/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-s230/en/leslie-jones/leslie-jones"
+                    text="                    Speaker Name                                            Leslie Jones            &#xa;&#xa;                        Speaker Title                                            Actress, writer            &#xa;&#xa;                        Speaker Byline                                            Leslie Jones is one of the stars of Paul Feig’s Ghostbusters reboot for Sony Studios, opposite Melissa McCarthy, Kristen Wiig and Kate McKinnon – the film was released in theatres worldwide July 2016. In 2014, Leslie was hired by SNL as a writer and quickly gained popularity after a memorable on-air appearance during the show's &quot;Weekend Update&quot; segment.  Jones officially joined the cast during the show’s 40th season.  Returning for her second season, The New Yorker profiled Jones and Vulture has cited her as an &quot;‘SNL’ standout due to her brash sensibility, humor, and forceful presence.&quot;  Slate praised Jones as “smart, talented, and utterly hilarious” and noted, “Jones is a fiercely independent performer who’s brash and unapologetic riffs can ruffle feathers – a welcome risk.”&#xa;Jones’ film credits include Chris Rock's Top Five and Judd Apatow's Trainwreck. She voiced an animated character in the studio feature Sing, for Illumination Entertainment, opposite Matthew McConaughey and John C. Reilly. Jones joined Tracy Morgan, Chris Rock and Whoopi Goldberg in an epic 2016 Oscars sketch, reimagining an Oscars montage starring black actors.&#xa;&#xa;&#xa;&#xa;                        Speaker Headshot                                            /content/dam/summit-s230/en/leslie-jones/leslie-jones.png            &#xa;&#xa;                        Speaker Date of Birth                                    2018-03-29 00:00                                    &#xa;&#xa;                        Speaker Page                                            /content/summit/en/speakers/leslie-jones            &#xa;&#xa;"/>
+                <contentfragment_474961797
+                    jcr:created="{Date}2018-03-08T21:27:31.097-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-08T21:27:31.097-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l731/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-s230/en/richard-branson/richard-branson"
+                    text="                    Speaker Name                                            Sir Richard Branson            &#xa;&#xa;                        Speaker Title                                            Entrepreneur            &#xa;&#xa;                        Speaker Byline                                            Conceived in 1970 by Sir Richard Branson, the Virgin Group has gone on to grow successful businesses in sectors including mobile telephony, travel and transportation, financial services, leisure and entertainment and health and wellness.  Virgin is a leading international investment group and one of the world's most recognized and respected brands. Since starting the youth culture magazine ​Student at age 16, Richard has found entrepreneurial ways to drive positive change in the world.&#xa;In 2004 he established Virgin Unite, the non-profit foundation of the Virgin Group, which unites people and entrepreneurial ideas to create opportunities for a better world.  ​&#xa;&#xa;Most of his time is now spent building businesses that will make a positive difference in the world and working with Virgin Unite and organizations it has incubated, such as The Elders, The Carbon War Room, The B Team and Ocean Unite. Branson serves on the Global Commission on Drug Policy and supports ocean conservation with the Ocean Elders. Richard's new biography, Finding My Virginity, is available now.&#xa;&#xa;&#xa;&#xa;                        Speaker Headshot                                            /content/dam/summit-s230/en/richard-branson/richard-branson.png            &#xa;&#xa;                        Speaker Date of Birth                                    2018-03-29 00:00                                    &#xa;&#xa;                        Speaker Page                                            /content/summit/en/speakers/richard-branson            &#xa;&#xa;"/>
+                <contentfragment_689434508
+                    jcr:created="{Date}2018-03-08T21:27:58.316-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-08T21:27:58.316-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l731/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-s230/en/jj-watt/jj-watt"
+                    text="                    Speaker Name                                            JJ Watt            &#xa;&#xa;                        Speaker Title                                            Defensive End, NFL            &#xa;&#xa;                        Speaker Byline                                            Dream Big Work Hard. Those four simple words have helped to transform Pewaukee native JJ Watt from small-town Wisconsin boy to being selected #11 Overall Pick in the 2011 NFL Draft by the Houston Texans. Watt won the NFL Defensive Player of the Year three times in his first five seasons. The journey from backyard football to the big stage of the NFL was not always smooth or easy and filled with adversity, but with unbelievable support from his friends and family, JJ turned his childhood dreams into reality.&#xa;Since joining the Texans, Watt has been selected to the Pro-Bowl Team three times and won the AP NFL Defensive Player of the Year award twice in his first four seasons. He is the first player in NFL history to record two 20+ sack seasons in a career. He also occasionally shifts to defensive tackle and has also taken snaps as a tight end. He was voted #1 on the 2014 – 2015 NFL Top 100 list, which is voted on by fellow NFL players. &#xa;&#xa;Watt is the president and founder of the Justin J. Watt Foundation, which provides after school opportunities for children in various communities encouraging them to get involved in athletics in a safe environment. &#xa;&#xa;In the aftermath of 2017’s Hurricane Harvey, Watt organized a crowdfunding campaign to help Houston recover. His campaign raised more than $37 million through over 209,000 donations, nearly doubling his initial $20 million goal.&#xa;&#xa;&#xa;&#xa;                        Speaker Headshot                                            /content/dam/summit-s230/en/jj-watt/jj-watt.png            &#xa;&#xa;                        Speaker Date of Birth                                    2018-03-29 00:00                                    &#xa;&#xa;                        Speaker Page                                            /content/summit/en/speakers/jj-watt            &#xa;&#xa;"/>
+                <contentfragment_258318827
+                    jcr:created="{Date}2018-03-08T21:28:17.121-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-08T21:28:17.121-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l731/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-s230/en/bear/bear-puppydog"
+                    text="                    Speaker Name                                            Bear Puppydog            &#xa;&#xa;                        Speaker Title                                            Fetch Professional            &#xa;&#xa;                        Speaker Byline                                            Bear is a rescue lab mix who resides in New Jersey. She is famous for catching many tennis balls. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed ut dui. Morbi malesuada nulla nec purus convallis consequat. Vivamus id mollis quam. Morbi ac commodo nulla. In condimentum orci id nisl volutpat &#xa;&#xa;In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. .&#xa;&#xa;&#xa;&#xa;                        Speaker Headshot                                            /content/dam/summit-s230/en/bear/bear-headshot.jpg            &#xa;&#xa;                        Speaker Date of Birth                                    2018-03-29 00:00                                    &#xa;&#xa;                        Speaker Page                                            /content/summit/en/speakers/bear-puppydog            &#xa;&#xa;"/>
+                <contentfragment_1796874384
+                    jcr:created="{Date}2018-03-16T13:13:09.223-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-16T13:13:09.223-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l731/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-s230/en/danny-gordon/danny-gordon"
+                    text="                    Speaker Name                                            Danny Gordon            &#xa;&#xa;                        Speaker Title                                            AEM Tech Marketing            &#xa;&#xa;                        Speaker Byline                                            Danny is a Technical Marketing Engineer with AEM's Tech Marketing Team. The team focuses on promoting the best practices and latest features of AEM for continued customer success. Danny is also a core contributor to the open-source Asset Share Commons project. Prior, Danny had spent 5 years with Adobe Global Services as an AEM Architect, leading implementations across a number of industry verticals.&#xa;&#xa;Danny resides in New Jersey with his girlfriend Jamie and their puppy Bear.&#xa;&#xa;&#xa;&#xa;                        Speaker Headshot                                            /content/dam/summit-s230/en/danny-gordon/danny-headshot.jpg            &#xa;&#xa;                        Speaker Date of Birth                                    2018-03-29 00:00                                    &#xa;&#xa;                        Speaker Page                                            /content/summit/en/speakers/danny-gordon            &#xa;&#xa;"/>
+                <contentfragment_1476660128
+                    jcr:created="{Date}2018-03-16T13:13:19.774-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-16T13:13:19.774-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l731/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-s230/en/amol-anand/amol-anand"
+                    text="                    Speaker Name                                            Amol Anand            &#xa;&#xa;                        Speaker Title                                            Principal Consultant, Adobe            &#xa;&#xa;                        Speaker Byline                                            Amol Anand is a Principal Consultant with Adobe Customer Solutions and is a Practice Lead for Mobile and AEM Content Services with the AEM Emerging Technologies Practice. He has over 11 years of experience in the content management space and has worked with Adobe for more than 6 years helping clients with Adobe Experience Manager and other Marketing Cloud solutions.&#xa;&#xa;&#xa;&#xa;                        Speaker Headshot                                            /content/dam/summit-s230/en/amol-anand/amol-bw.jpg            &#xa;&#xa;                        Speaker Date of Birth                                    2018-03-29 00:00                                    &#xa;&#xa;                        Speaker Page                                            /content/summit/en/speakers/amol-anand            &#xa;&#xa;"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -22,16 +22,26 @@
                             jcr:primaryType="nt:unstructured"/>
                     </policy_1518573148342>
                     <policy_712648621601334
-                        jcr:lastModified="{Date}2018-03-08T21:19:57.694-05:00"
+                        jcr:lastModified="{Date}2018-03-16T14:03:32.131-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Summit Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/libs/wcm/foundation/components/responsivegrid,group:Summit Lab L731,group:Summit.Content,group:Summit.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1521220840766
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="summit-l731/components/content/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
                     </policy_712648621601334>
                     <policy_712740132475333
-                        jcr:lastModified="{Date}2018-03-08T21:26:49.005-05:00"
+                        jcr:lastModified="{Date}2018-03-16T14:03:52.141-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Summit Content"
@@ -58,7 +68,7 @@
             <content jcr:primaryType="nt:unstructured">
                 <contentfragment jcr:primaryType="nt:unstructured">
                     <policy_1520390757981
-                        jcr:lastModified="{Date}2018-03-06T21:48:40.878-05:00"
+                        jcr:lastModified="{Date}2018-03-16T14:04:46.188-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Content Fragment Policy"

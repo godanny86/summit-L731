@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="75fae118-fd75-40d6-8f0a-d67e8a9e1336">
+    <jcr:content
+        cq:name="richard-branson"
+        cq:parentPath="/content/dam/summit-s230/en/richard-branson"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-03-16T13:14:33.959-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Richard Branson"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-03-16T13:14:33.959-04:00">
+        <data
+            cq:model="/conf/summit-l731/settings/dam/cfm/models/l731-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>Conceived in 1970 by Sir Richard Branson, the Virgin Group has gone on to grow successful businesses in sectors including mobile telephony, travel and transportation,&amp;nbsp;financial services, leisure and entertainment and health and wellness.&amp;nbsp; Virgin is a leading international investment group and one of the world's most recognized and&amp;nbsp;respected brands.&amp;nbsp;Since starting the youth culture magazine ​Student&amp;nbsp;at age 16, Richard has found entrepreneurial ways to drive positive change in the world.&lt;br>&#xa;In 2004 he established&amp;nbsp;Virgin Unite, the non-profit foundation of the Virgin Group, which unites people and entrepreneurial ideas to create opportunities for a better world.&amp;nbsp; ​&lt;br>&#xa;&lt;br>&#xa;Most of his time is&amp;nbsp;now spent building businesses that will make a positive difference in the world and working with Virgin Unite and organizations it has incubated, such as The Elders,&amp;nbsp;The Carbon War Room, The B Team and Ocean Unite. Branson serves on the Global Commission on Drug Policy and supports ocean conservation with the Ocean Elders. Richard's new biography,&amp;nbsp;Finding My Virginity, is available now.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2018-03-16T13:14:33.940-04:00"
+                speakerDOB="{Date}2018-03-29T00:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2018-03-16T13:14:33.941-04:00"
+                speakerImage="/content/dam/summit-s230/en/richard-branson/richard-branson.png"
+                speakerImage_x0040_LastModified="{Date}2018-03-16T13:14:33.940-04:00"
+                speakerName="Sir Richard Branson"
+                speakerName_x0040_LastModified="{Date}2018-03-16T13:14:33.940-04:00"
+                speakerPage="/content/summit/en/speakers/richard-branson"
+                speakerPage_x0040_LastModified="{Date}2018-03-16T13:14:33.941-04:00"
+                speakerTitle="Entrepreneur"
+                speakerTitle_x0040_LastModified="{Date}2018-03-16T13:14:33.940-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

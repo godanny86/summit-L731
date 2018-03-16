@@ -1,0 +1,4 @@
+#base=.
+
+slick.css
+slick-theme.css

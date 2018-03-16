@@ -5,7 +5,7 @@ jQuery(function($) {
 		IMAGE_ELEMENT = ".cmp-contentfragment__element--speakerImage",
 		DOB_ELEMENT = ".cmp-contentfragment__element--speakerDOB",
 		CF_ELEMENT_VALUE = ".cmp-contentfragment__element-value",
-		THUMBNAIL_RENDITION = "/_jcr_content/renditions/cq5dam.thumbnail.319.319.png?ch_ck=1520390068000";
+		THUMBNAIL_RENDITION = "/_jcr_content/renditions/cq5dam.thumbnail.319.319.png";
 
 	function applyComponentStyles() {
 

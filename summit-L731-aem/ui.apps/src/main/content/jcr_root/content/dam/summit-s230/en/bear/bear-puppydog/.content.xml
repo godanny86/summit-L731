@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="bfb3972f-065d-4c1c-91fc-01b55ae77b52">
+    <jcr:content
+        cq:name="bear-puppydog"
+        cq:parentPath="/content/dam/summit-s230/en/bear"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-03-16T14:23:27.656-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Bear Puppydog"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-03-16T14:23:27.656-04:00">
+        <data
+            cq:model="/conf/summit-l731/settings/dam/cfm/models/l731-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>Bear is a rescue lab mix who resides in New Jersey. She is famous for catching many tennis balls. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed ut dui. Morbi malesuada nulla nec purus convallis consequat. Vivamus id mollis quam. Morbi ac commodo nulla. In condimentum orci id nisl volutpat&amp;nbsp;&lt;/p>&#xa;&lt;p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat.&amp;nbsp;.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2018-03-16T14:23:27.639-04:00"
+                speakerDOB="{Date}2018-03-29T00:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2018-03-16T14:23:27.639-04:00"
+                speakerImage="/content/dam/summit-s230/en/bear/bear-headshot-bw.jpg"
+                speakerImage_x0040_LastModified="{Date}2018-03-16T14:23:27.639-04:00"
+                speakerName="Bear Puppydog"
+                speakerName_x0040_LastModified="{Date}2018-03-16T14:23:27.638-04:00"
+                speakerPage="/content/summit/en/speakers/bear-puppydog"
+                speakerPage_x0040_LastModified="{Date}2018-03-16T14:23:27.639-04:00"
+                speakerTitle="Fetch Professional"
+                speakerTitle_x0040_LastModified="{Date}2018-03-16T14:23:27.639-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

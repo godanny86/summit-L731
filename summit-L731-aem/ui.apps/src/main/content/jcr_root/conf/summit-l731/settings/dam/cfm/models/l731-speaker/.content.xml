@@ -4,7 +4,7 @@
     allowedPaths="[/content/entities(/.*)?]"
     ranking="{Long}100">
     <jcr:content
-        cq:lastModified="{Date}2018-02-11T21:38:10.838-05:00"
+        cq:lastModified="{Date}2018-03-16T12:17:36.688-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2018-02-11T22:37:33.451-05:00"
         cq:lastReplicatedBy="admin"
@@ -25,11 +25,13 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/authoring/dialog">
                 <content
+                    jcr:lastModified="{Date}2018-03-16T12:17:36.688-04:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
                     <items
                         jcr:primaryType="nt:unstructured"
-                        maxGeneratedOrder="20">
+                        maxGeneratedOrder="21">
                         <speakerName
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
@@ -40,6 +42,17 @@
                             maxlength="255"
                             metaType="text-single"
                             name="speakerName"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string"/>
+                        <_x0031_521217047785
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Speaker Title"
+                            listOrder="21"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="speakerTitle"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
                             valueType="string"/>
@@ -65,13 +78,13 @@
                             name="speakerImage"
                             nameSuffix="contentReference"
                             renderReadOnly="false"
-                            rootPath="/content/dam/summit-lab-731/speaker-images"
+                            rootPath="/content/dam"
                             showEmptyInReadOnly="true"
                             valueType="string"/>
                         <speakerDOB
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="granite/ui/components/coral/foundation/form/datepicker"
-                            displayedFormat="YYYY-MM-DD HH:mm:ss"
+                            displayedFormat="YYYY-MM-DD HH:mm"
                             emptyText="YYYY-MM-DD HH:mm"
                             fieldDescription="Please select the Speaker's date of birth here"
                             fieldLabel="Speaker Date of Birth"
@@ -80,7 +93,6 @@
                             name="speakerDOB"
                             renderReadOnly="false"
                             showEmptyInReadOnly="true"
-                            type="datetime"
                             value="{Date}2018-03-29T00:00:00.000-04:00"
                             valueFormat="YYYY-MM-DD[T]HH:mm:ss.000Z"
                             valueType="calendar">
@@ -88,6 +100,18 @@
                                 jcr:primaryType="nt:unstructured"
                                 typeHint="Date"/>
                         </speakerDOB>
+                        <_x0031_521128662887
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Speaker Page"
+                            filter="hierarchy"
+                            listOrder="8"
+                            metaType="reference"
+                            name="speakerPage"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string"/>
                     </items>
                 </content>
             </cq:dialog>

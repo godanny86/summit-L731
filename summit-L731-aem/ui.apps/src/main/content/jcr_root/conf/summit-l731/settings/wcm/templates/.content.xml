@@ -2,9 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <l731-api-template/>
-    <_x002e_DS_Store/>
     <summit-page-template/>
-    <summit-speaker/>
     <api-template/>
+    <experience-fragment/>
 </jcr:root>

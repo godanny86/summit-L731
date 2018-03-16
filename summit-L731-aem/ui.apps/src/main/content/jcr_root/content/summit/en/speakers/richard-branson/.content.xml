@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-03-15T15:53:10.277Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/summit-l731/settings/wcm/templates/summit-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Richard Branson"
+        jcr:uuid="2f6fbdf7-77ab-472d-a52c-e84f37355cbd"
+        sling:resourceType="summit-l731/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-03-06T21:09:36.315-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-03-06T21:10:28.670-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <contentfragment
+                    cq:styleIds="[1520390780172]"
+                    jcr:created="{Date}2018-03-15T15:50:47.929Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-15T15:53:10.275Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="summit-l731/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/summit-s230/en/richard-branson/richard-branson"
+                    paragraphScope="all"
+                    text="                    Speaker Name                                            Sir Richard Branson            &#xa;&#xa;                        Speaker Title                                            Entrepreneur            &#xa;&#xa;                        Speaker Byline                                            Conceived in 1970 by Sir Richard Branson, the Virgin Group has gone on to grow successful businesses in sectors including mobile telephony, travel and transportation, financial services, leisure and entertainment and health and wellness.  Virgin is a leading international investment group and one of the world's most recognized and respected brands. Since starting the youth culture magazine ​Student at age 16, Richard has found entrepreneurial ways to drive positive change in the world.&#xa;In 2004 he established Virgin Unite, the non-profit foundation of the Virgin Group, which unites people and entrepreneurial ideas to create opportunities for a better world.  ​&#xa;&#xa;Most of his time is now spent building businesses that will make a positive difference in the world and working with Virgin Unite and organizations it has incubated, such as The Elders, The Carbon War Room, The B Team and Ocean Unite. Branson serves on the Global Commission on Drug Policy and supports ocean conservation with the Ocean Elders. Richard's new biography, Finding My Virginity, is available now.&#xa;&#xa;&#xa;&#xa;                        Speaker Headshot                                            /content/dam/summit-s230/en/richard-branson/richard-branson.png            &#xa;&#xa;                        Speaker Date of Birth                                    2018-03-29 00:00                                    &#xa;&#xa;                        Speaker Page                                            /content/summit/en/speakers/richard-branson            &#xa;&#xa;"
+                    variationName="master"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
