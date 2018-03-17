@@ -14,6 +14,6 @@ export let SETTINGS_PRODUCT_CATEGORIES_KEY = "categories";
 
 export let SETTINGS_PRODUCT_DETAILS_SELECTOR = ".4.json";
 
-export let SPEAKERS_ENDPOINT = "/content/we-retail/us/en/api/speakers.model.json";
+export let SPEAKERS_ENDPOINT = "/content/summit/api/NA/summit-speakers.model.json";
 
 export let FAQ_ENDPOINT = "/content/we-retail/us/en/api/faq.model.json";
