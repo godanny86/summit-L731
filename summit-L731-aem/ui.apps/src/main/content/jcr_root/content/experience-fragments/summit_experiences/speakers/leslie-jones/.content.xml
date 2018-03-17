@@ -2,14 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-03-16T14:49:58.783-04:00"
+        cq:lastModified="{Date}2018-03-17T13:12:35.005-04:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/libs/cq/experience-fragments/components/experiencefragment/template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Bear Puppydog"
+        jcr:title="Leslie Jones"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
-    <mobile/>
-    <facebook/>
 </jcr:root>

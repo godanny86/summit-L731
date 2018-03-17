@@ -3,4 +3,5 @@
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="Speakers">
     <bear-puppydog/>
+    <leslie-jones/>
 </jcr:root>

@@ -1,0 +1,63 @@
+@teal : 		#4ECDC4;
+@red  : 		#FD405B;
+@yellow :	#FADE4D;
+
+.cmp-image--border {
+	
+	.cmp-image {
+		position: relative;
+		overflow:hidden;
+	}
+	
+	img.cmp-image__image {
+		margin-bottom: 0px !important;
+	}
+	
+	.border-box-highlight {
+		position: absolute;
+	    height: 100%;
+	    top: 20px;
+	    left: 20px;
+	    right: 20px;
+	    border: none;
+	}
+	
+	.speakerTitle {
+		background-color: #2F303D;
+	    color: #fff;
+	    padding: 0.5em;
+	    font-weight: 800;
+	    font-size: 20px;
+	    text-transform: uppercase;
+	    text-align: center;
+	    font-family: serenity;
+	}
+    
+}
+
+.cmp-image--teal {
+	.border-box-highlight {
+		border: 1px solid @teal;
+	}
+	.speakerTitle {
+		color: @teal;
+	}
+}
+
+.cmp-image--red {
+	.border-box-highlight {
+		border: 1px solid @red;
+	}
+	.speakerTitle {
+		color: @red;
+	}
+}
+
+.cmp-image--yellow {
+	.border-box-highlight {
+		border: 1px solid @yellow;
+	}
+	.speakerTitle {
+		color: @yellow;
+	}
+}

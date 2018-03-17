@@ -4,5 +4,6 @@
     jcr:primaryType="cq:Page">
     <summit-page-template/>
     <api-template/>
-    <experience-fragment/>
+    <experience-fragment-web-variation/>
+    <experience-fragment-facebook-variation/>
 </jcr:root>
