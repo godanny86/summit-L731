@@ -4,7 +4,7 @@ jQuery(function($) {
     var CMP_SELECTOR = ".cmp-image--border",
         DATA_PROCESSED = "data-image-processed",
         IMG_SELECTOR = ".cmp-image__image",
-    		IMG_CONTAINER = ".cmp-image";
+        IMG_CONTAINER = ".cmp-image";
         
 
  function applyComponentStyles() {
@@ -16,12 +16,10 @@ jQuery(function($) {
             image = $(this).find(IMG_SELECTOR),
             imgContainer = $(this).find(IMG_CONTAINER),
             title;
-            console.log("here?");
             if(image !== undefined) {
-            	    title = $(image).attr("title");
-            	    console.log("title!" + title);
-            	    imgContainer.append("<div class='border-box-highlight'></div>");
-            	    component.append("<div class='speakerTitle'>" + title + "</div>");
+                title = $(image).attr("title");
+                imgContainer.append("<div class='border-box-highlight'></div>");
+                component.append("<div class='speakerTitle'>" + title + "</div>");
             }
           
           });

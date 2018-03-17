@@ -16,13 +16,12 @@ jQuery(function($) {
            
             
             $.getJSON(jsonURI, function(result){
-            $.each(result, function(index, element) {
-             if(index === ":items") {
-                $.each(element, function(cfindex, cfragment) {
+                $.each(result[":items"], function(cfindex, cfragment) {
+
+                 if (cfragment[":type"] === "summit-l731/components/content/contentfragment") {
                     $(section).append("<div><a class='cmp-speaker-img' href='" + cfragment.elements.speakerPage.value + ".html'><div class='speaker-img'><img src='" + cfragment.elements.speakerImage.value + THUMBNAIL_RENDITION + "' /><div class='border-box-highlight'></div></div><h4>" + cfragment.elements.speakerName.value + "</h4></a></div>");
-                   });
-                }
-              });
+                    }
+                });
             }).done(function() {
             $(section).slick({
                  dots: true,
