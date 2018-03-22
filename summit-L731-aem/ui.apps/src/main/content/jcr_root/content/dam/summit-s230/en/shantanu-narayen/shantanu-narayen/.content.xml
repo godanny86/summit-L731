@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="bfd07ed6-00ce-40e7-8516-806ef40c0053">
+    <jcr:content
+        cq:name="shantanu-narayen"
+        cq:parentPath="/content/dam/summit-s230/en/shantanu-narayen"
+        jcr:description=""
+        jcr:lastModified="{Date}2018-03-21T20:52:00.606-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Shantanu Narayen"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-03-21T20:52:00.606-04:00">
+        <data
+            cq:model="/conf/summit-l731/settings/dam/cfm/models/l731-speaker"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                speakerByline="&lt;p>Shantanu Narayen is president and chief executive officer of Adobe, one of the world's largest and most diversified software companies. Narayen's leadership, technology insight and operational expertise have strengthened Adobe's culture of innovation, expanded the company into new markets, and extended its product portfolio and global reach. In 2009, Narayen led the $1.8 billion acquisition of Omniture, Inc., expanding Adobe’s ability to help customers measure and optimize the value of online experiences, content and applications. Prior to his appointment as CEO in December of 2007, Narayen was Adobe's president and COO, responsible for the company's day-to-day global operations, product research and development, marketing and corporate development.&lt;br>&#xa;In 2005, he co-led the $3.4 billion acquisition of Macromedia, strengthening the company's presence in key markets ranging from enterprises and vertical industries to mobile devices and multimedia publishing. Previously, he held key product research and development positions within Adobe, including executive vice president of worldwide products, senior vice president of worldwide product development and vice president and general manager of the engineering technology group. Before joining Adobe in 1998, Narayen was co-founder of Pictra, Inc., an early pioneer of digital photo sharing over the Internet. Prior to that, he served as director of desktop and collaboration products at Silicon Graphics, Inc. and held various senior management positions at Apple Computer, Inc. Narayen holds five patents and is a frequent speaker at industry and academic events. He is a member of the U.S. President's Management Advisory Board, established in 2010 to provide advice on how to implement best business practices, including the application of technology, on matters related to federal government management and operation. He also serves on the Board of Pfizer, Inc. and the Advisory Board of the Haas School of Business, University of California at Berkeley, and is president of the board of the Adobe Foundation, which funds philanthropic initiatives around the world. He formerly served on the Board of Dell, Inc. and Metavante Technologies, Inc. Narayen holds a bachelor's degree in electronics engineering from Osmania University in India, a master's degree in computer science from Bowling Green State University and a master's degree in business administration from the Haas School of Business.&lt;/p>&#xa;"
+                speakerByline_x0040_ContentType="text/html"
+                speakerByline_x0040_LastModified="{Date}2018-03-21T20:54:08.172-04:00"
+                speakerDOB="{Date}2018-03-29T00:00:00.000-04:00"
+                speakerDOB_x0040_LastModified="{Date}2018-03-21T20:54:08.172-04:00"
+                speakerImage="/content/dam/summit-s230/en/shantanu-narayen/shantanu.jpg"
+                speakerImage_x0040_LastModified="{Date}2018-03-21T20:54:08.172-04:00"
+                speakerName="Shantanu Narayen"
+                speakerName_x0040_LastModified="{Date}2018-03-21T20:54:08.171-04:00"
+                speakerPage_x0040_LastModified="{Date}2018-03-21T20:54:08.172-04:00"
+                speakerTitle="President &amp; CEO"
+                speakerTitle_x0040_LastModified="{Date}2018-03-21T20:54:08.171-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured"/>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}3"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}3"
+                lastUsed="{Date}2018-03-21T20:50:17.023-04:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>
