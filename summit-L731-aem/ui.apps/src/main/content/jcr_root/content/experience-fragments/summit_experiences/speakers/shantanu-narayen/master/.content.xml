@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-03-21T21:17:58.945-04:00"
+        cq:lastModified="{Date}2018-03-25T11:13:42.323-04:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/summit-l731/settings/wcm/templates/experience-fragment-web-variation"
@@ -11,7 +11,7 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Web"
+        jcr:title="Master"
         jcr:uuid="2bdef50b-5540-48c9-b56b-e06104845ba7"
         sling:resourceType="weretail/components/structure/xfpage">
         <root
@@ -26,11 +26,11 @@
                 jcr:lastModified="{Date}2018-03-17T12:36:51.584-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Bear Puppydog"
+                jcr:title="Shantanu Block"
                 sling:resourceType="cq/experience-fragments/editor/components/buildingblock">
                 <image95617530929896
-                    cq:styleIds="[1521300087615]"
-                    jcr:lastModified="{Date}2018-03-21T21:17:58.942-04:00"
+                    cq:styleIds="[1521300027417]"
+                    jcr:lastModified="{Date}2018-03-25T10:54:37.915-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Shantanu Narayen"
@@ -44,7 +44,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            width="4"/>
+                            offset="3"
+                            width="6"/>
                     </cq:responsive>
                 </image95617530929896>
                 <item95617531621618
@@ -58,7 +59,8 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            width="7"/>
+                            offset="0"
+                            width="12"/>
                     </cq:responsive>
                 </item95617531621618>
                 <item95617532365446
@@ -74,9 +76,18 @@
                         <default
                             jcr:primaryType="nt:unstructured"
                             offset="0"
-                            width="7"/>
+                            width="12"/>
                     </cq:responsive>
                 </item95617532365446>
+                <title
+                    jcr:created="{Date}2018-03-25T11:11:35.347-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-03-25T11:13:42.320-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="March 26th - 29th"
+                    sling:resourceType="summit-l731/components/content/title"
+                    type="h4"/>
                 <item95617533196833
                     jcr:created="{Date}2018-03-17T12:35:47.930-04:00"
                     jcr:createdBy="admin"
@@ -89,7 +100,7 @@
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"
-                            width="7"/>
+                            width="12"/>
                     </cq:responsive>
                 </item95617533196833>
             </image>

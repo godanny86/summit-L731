@@ -8,10 +8,11 @@
         cq:name="shantanu-party.png"
         cq:parentPath="/content/dam/we-retail/en/summit-bash"
         dam:assetState="processed"
-        dam:relativePath="we-retail/en/summit-bash/shantanu-party.png"
-        jcr:lastModified="{Date}2015-03-21T20:46:47.260-04:00"
+        dam:relativePath="summit-s230/alternate-headshots/shantanu-party.png"
+        jcr:lastModified="{Date}2018-03-21T21:19:42.735-04:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="shantanu-party.png">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:Fileformat="PNG"
@@ -24,7 +25,8 @@
             dam:Physicalwidthininches="{Decimal}3.8884029388427734"
             dam:Progressive="no"
             dam:sha1="330bf8a044387cd094947fa76190c6467e45bc97"
-            dc:creator="hide"
+            dc:creator="[hide]"
+            dc:creator_xmpArrayType="rdf:Seq"
             dc:format="image/png"
             dc:modified="{Date}2018-03-21T20:46:47.190-04:00"
             exif:ColorSpace="{Long}65535"
@@ -53,6 +55,13 @@
             xmpMM:DocumentID="adobe:docid:photoshop:73f96627-6d98-117b-ab7e-828248b281f3"
             xmpMM:InstanceID="xmp.iid:b8523a66-1633-405a-a933-04e39fa54f17"
             xmpMM:OriginalDocumentID="B9534E4886C950E32ED034D0FA36C4CB">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="B9534E4886C950E32ED034D0FA36C4CB"
+                stRef:instanceID="xmp.iid:fb05b3a9-7ad6-4115-958d-557fa6469cf8"
+                stRef:originalDocumentID="B9534E4886C950E32ED034D0FA36C4CB"
+                xmpNodeType="xmpStruct"/>
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
             <xmpMM:History
                 jcr:primaryType="nt:unstructured"
                 xmpArraySize="{Long}4"
@@ -85,13 +94,6 @@
                     stEvt:when="{Date}2018-03-21T18:24:07.000-04:00"
                     xmpNodeType="xmpStruct"/>
             </xmpMM:History>
-            <xmpMM:DerivedFrom
-                jcr:primaryType="nt:unstructured"
-                stRef:documentID="B9534E4886C950E32ED034D0FA36C4CB"
-                stRef:instanceID="xmp.iid:fb05b3a9-7ad6-4115-958d-557fa6469cf8"
-                stRef:originalDocumentID="B9534E4886C950E32ED034D0FA36C4CB"
-                xmpNodeType="xmpStruct"/>
-            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
